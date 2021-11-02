@@ -71,7 +71,7 @@ Do the following:
 function multiply(a, b){
   return a * b
 }
-console.log(multiply(5,6))
+// console.log(multiply(5,6))
 
 
 
@@ -88,7 +88,7 @@ Do the following:
 function dogYears(age){
   return age * 7;
 }
-console.log(dogYears(27))
+// console.log(dogYears(27))
 
 
 
@@ -238,9 +238,12 @@ Using the annoyingSong function below do the following:
     "{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall"
 */
 
-function annoyingSong(/*add your code here*/){
-      /*add your code here*/
+function annoyingSong(num){
+      for(let i = num; i > 0; i--){
+        return(`${i} bottles of soda on the wall, ${i} bottles of soda, take one down pass it around ${i - 1} bottles of soda on the wall`);
+      }
 }
+annoyingSong(5)
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
